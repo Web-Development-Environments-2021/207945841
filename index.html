@@ -65,7 +65,8 @@ body, html {
     <a href="#music" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-refresh"></i> MUSIC</a>
     <a href="#code" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-search"></i> QRcode</a>
     <a href="#like" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-thumbs-up"></i> FACEBOOK</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#like" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-thumbs-up"></i> FACEBOOK</a>
+    <a href="#qa" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-remove"></i> Q&A</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
@@ -78,6 +79,7 @@ body, html {
     <a href="#music" class="w3-bar-item w3-button" onclick="toggleFunction()">MUSIC</a>
     <a href="#code" class="w3-bar-item w3-button" onclick="toggleFunction()">QRcode</a>
     <a href="#like" class="w3-bar-item w3-button" onclick="toggleFunction()">FACEBOOK</a>
+    <a href="#qa" class="w3-bar-item w3-button" onclick="toggleFunction()">Q&A</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -184,7 +186,7 @@ body, html {
 
 </div>
 
-<!-- Container (music Section) -->
+<!-- Container (CODE Section) -->
 <div class="w3-content w3-container w3-padding-64" id="code">
   <h3 class="w3-center">QRcode</h3>
   
@@ -193,14 +195,56 @@ body, html {
 
 </div>
 
-<!-- Container (music Section) -->
+<!-- Container (facebook Section) -->
 <div class="w3-content w3-container w3-padding-64" id="like">
-  <h3 class="w3-center">GIVE MY FAVORITE PAGE LIKE</h3>
+  <h3 class="w3-center">SHOW LOVE TO MY FAVORITE PAGE</h3>
   
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="1Xtp2deX"></script>
  
   <div class="fb-like" data-href="https://www.facebook.com/LacovaPizza/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+</div>
+
+<!-- Container (q and a Section) -->
+<div class="w3-content w3-container w3-padding-64" id="qa">
+  <div class="w3-container">
+    <h2>Q&A</h2>
+    <p>compare between WEB 1.0 vs WEB 2.0 vs WEB 3.0</p>
+  
+    <table class="w3-table-all">
+      <tr>
+        <th>WEB 1.0</th>
+        <th>WEB 2.0</th>
+        <th>WEB 3.0</th>
+        <th><b>PARAMETERS</b></th>
+      </tr>
+      <tr>
+        <td>Web Forms</td>
+        <td> Web Applications</td>
+        <td> Smart Applications</td>
+        <td><b>KIND</b></td>
+      </tr>
+      <tr>
+        <td>Read-Only</td>
+        <td>Read-write</td>
+        <td>Portable and Personal</td>
+        <td><b>PRAIVECY</b></td>
+      </tr>
+      <tr>
+        <td>Company</td>
+        <td>Community</td>
+        <td>Individual</td>
+        <td><b>FOCUS</b></td>
+      </tr>
+      <tr>
+        <td>For the desired output you will provide an URL</td>
+        <td>Given a query the user will get only the words it contains</td>
+        <td>Given a query the user will get all the relevant information for it</td>
+        <td><b>I/O</b></td>
+      </tr>
+    </table>
+  </div>
+  
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
