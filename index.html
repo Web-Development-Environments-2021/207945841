@@ -62,8 +62,9 @@ body, html {
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PICTURES</a>
-    <a href="#music" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> MUSIC</a>
-    <a href="#code" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> QRcode</a>
+    <a href="#music" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-refresh"></i> MUSIC</a>
+    <a href="#code" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-search"></i> QRcode</a>
+    <a href="#like" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-thumbs-up"></i> FACEBOOK</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -76,6 +77,7 @@ body, html {
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PICTURES</a>
     <a href="#music" class="w3-bar-item w3-button" onclick="toggleFunction()">MUSIC</a>
     <a href="#code" class="w3-bar-item w3-button" onclick="toggleFunction()">QRcode</a>
+    <a href="#like" class="w3-bar-item w3-button" onclick="toggleFunction()">FACEBOOK</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -189,6 +191,16 @@ body, html {
 
  
 
+</div>
+
+<!-- Container (music Section) -->
+<div class="w3-content w3-container w3-padding-64" id="code">
+  <h3 class="w3-center">GIVE MY FAVORITE PAGE LIKE</h3>
+  
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="1Xtp2deX"></script>
+ 
+  <div class="fb-like" data-href="https://www.facebook.com/LacovaPizza/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
